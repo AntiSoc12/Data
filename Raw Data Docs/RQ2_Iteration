@@ -1,4 +1,4 @@
->>> sort-256 $b RF Integer
+>>> sort-256 $b RF Label
 71.439
 64.715
 76.784
@@ -50,7 +50,7 @@
 75.353
 71.784
  
->>> SS-B $b Knn Integer
+>>> SS-B $b Knn Label
 3.0806
 2.853
 3.375
@@ -103,7 +103,7 @@
 2.716
 
 
->>> sort-256 $b DT Integer
+>>> sort-256 $b DT Label
 0.651
 0.522
 0.637
@@ -155,7 +155,7 @@
 0.576
 0.612
 
->>>sort-256 $b LR Integer
+>>>sort-256 $b LR Label
 0.256
 0.167
 0.200
@@ -209,7 +209,7 @@
 
 
 
->>> sort-256 $b KR Integer
+>>> sort-256 $b KR Label
 8.303
 8.114
 7.996
@@ -263,7 +263,7 @@
 
 
 
->>>  sort-256 $a RF Int
+>>>  sort-256 $a RF Label
 25.840
 25.714
 25.814
@@ -315,7 +315,7 @@
 26.627
 26.851
 
->>> sort-256 $a Knn Integer
+>>> sort-256 $a Knn Label
 1.892
 1.791
 1.790
@@ -367,7 +367,7 @@
 1.818
 1.792
 
->>> sort-256 $a DT Integer
+>>> sort-256 $a DT Label
 0.520
 0.327
 0.316
@@ -419,7 +419,7 @@
 0.326
 0.312
 
->>>  sort-256 $a LR Integer 
+>>>  sort-256 $a LR Label 
 0.065
 0.057
 0.059
@@ -472,7 +472,7 @@
 0.063
 
 
->>> sort-256 $a KR Integer
+>>> sort-256 $a KR Label
 7.244
 7.398
 7.190
@@ -1148,7 +1148,7 @@
 38.535
 39.966
 
->>> wc-3c-3d $throughput RF Integer
+>>> wc-3c-3d $throughput RF Label
 231.584
 221.697
 139.871
@@ -1200,7 +1200,7 @@
 101.788
 103.995
 
->>>wc-3c-3d Knn $throughput Integer 
+>>>wc-3c-3d Knn $throughput Label 
 1.547
 1.463
 1.435
@@ -1252,7 +1252,7 @@
 1.421
 1.396
 
->>>wc-3c-3d  DT $throughput Integer
+>>>wc-3c-3d  DT $throughput Label
 1.494
 1.415
 1.407
@@ -1304,7 +1304,7 @@
 2.148
 2.134
 
->>>wc-3c-3d LR $throughput Integer
+>>>wc-3c-3d LR $throughput Label
 0.168
 0.067
 0.167
@@ -1356,7 +1356,7 @@
 0.076
 0.199
 
->>>wc-3c-3d KR $throughput Integer
+>>>wc-3c-3d KR $throughput Label
 185.499
 426.574
 306.951
@@ -1408,7 +1408,7 @@
 178.737
 175.862
 
->>>wc-3c-3d $latency RF Integer
+>>>wc-3c-3d $latency RF Label
 113.975
 112.040
 112.847
@@ -1460,7 +1460,7 @@
 111.862
 112.066
 
->>>wc-3c-3d KNN $latency Integer
+>>>wc-3c-3d KNN $latency Label
 2.246
 2.266
 2.328
@@ -1512,7 +1512,7 @@
 2.482
 2.279
 
->>>wc-3c-3d $latency DT Integer
+>>>wc-3c-3d $latency DT Label
 2.964
 3.516
 4.011
@@ -1564,7 +1564,7 @@
 2.585
 2.626
 
->>>wc-3c-3d $latency KR Integer
+>>>wc-3c-3d $latency KR Label
 44.330
 46.415
 44.176
@@ -2240,7 +2240,7 @@
 51.289
 48.442
 
->>>wc+wc-c4-3d RF $throughput Integer
+>>>wc+wc-c4-3d RF $throughput Label
 1.911
 1.789
 1.755
@@ -2292,7 +2292,7 @@
 2.112
 2.391
 
->>>wc+wc-c4-3d Knn $throughput Integer
+>>>wc+wc-c4-3d Knn $throughput Label
 0.749
 0.710
 0.630
@@ -2344,7 +2344,7 @@
 0.621
 0.625
 
->>>wc+wc-c4-3d DT $throughput Integer
+>>>wc+wc-c4-3d DT $throughput Label
 0.332
 0.357
 0.293
@@ -2396,7 +2396,7 @@
 0.355
 0.325
 
->>>wc+wc-c4-3d LR $throughput Integer
+>>>wc+wc-c4-3d LR $throughput Label
 0.085
 0.085
 0.053
@@ -2448,7 +2448,7 @@
 0.038
 0.031
 
->>>wc+wc-c4-3d KR $throughput Integer
+>>>wc+wc-c4-3d KR $throughput Label
 1.952
 1.889
 1.874
@@ -2500,7 +2500,7 @@
 1.918
 1.804
 
->>>wc+wc-c4-3d $latency RF Integer
+>>>wc+wc-c4-3d $latency RF Label
 1.934
 1.938
 1.980
@@ -2552,7 +2552,7 @@
 1.867
 1.968
 
->>>wc+wc-c4-3d $latency Knn Integer
+>>>wc+wc-c4-3d $latency Knn Label
 0.651
 0.629
 0.599
@@ -2604,7 +2604,7 @@
 0.611
 0.627
 
->>>wc+wc-c4-3d DT $latency Integer
+>>>wc+wc-c4-3d DT $latency Label
 0.332
 0.422
 0.294
@@ -2656,7 +2656,7 @@
 0.350
 0.320
 
->>>wc-3c-3d LR $latency Integer
+>>>wc-3c-3d LR $latency Label
 0.053
 0.031
 0.038
@@ -2708,7 +2708,7 @@
 0.038
 0.031
 
->>>wc+wc-c4-3d KR $latency Integer
+>>>wc+wc-c4-3d KR $latency Label
 1.789
 1.698
 1.710
@@ -3384,7 +3384,7 @@
 3.242
 3.210
 
->>>wc+rs-c4-3d $throughput RF Integer
+>>>wc+rs-c4-3d $throughput RF Label
 1.879
 1.824
 1.852
@@ -3436,7 +3436,7 @@
 1.812
 1.886
 
->>>wc+rs-c4-3d knn $throughput Integer
+>>>wc+rs-c4-3d knn $throughput Label
 0.656
 0.625
 0.609
@@ -3488,7 +3488,7 @@
 0.743
 0.727
 
->>>wc+rs-c4-3d SVR $throughput Integer
+>>>wc+rs-c4-3d SVR $throughput Label
 2.384
 2.269
 2.343
@@ -3540,7 +3540,7 @@
 2.478
 2.448
 
->>>wc+rs-c4-3d DT $throughput Integer
+>>>wc+rs-c4-3d DT $throughput Label
 0.329
 0.359
 0.350
@@ -3592,7 +3592,7 @@
 0.286
 0.287
 
->>>wc+rs-c4-3d LR $throughput Integer
+>>>wc+rs-c4-3d LR $throughput Label
 0.062
 0.038
 0.031
@@ -3644,7 +3644,7 @@
 0.038
 0.031
 
->>>wc+rs-c4-3d KR $throughput Integer
+>>>wc+rs-c4-3d KR $throughput Label
 1.920
 1.820
 1.757
@@ -3696,7 +3696,7 @@
 1.900
 1.845
 
->>>wc+rs-c4-3d RF $latency Integer
+>>>wc+rs-c4-3d RF $latency Label
 1.853
 1.882
 1.885
@@ -3748,7 +3748,7 @@
 1.863
 1.936
 
->>>wc+rs-c4-3d knn $latency Integer
+>>>wc+rs-c4-3d knn $latency Label
 0.664
 0.641
 0.595
@@ -3800,7 +3800,7 @@
 0.694
 0.661
 
->>>wc+rs-c4-3d SVR $latency Integer
+>>>wc+rs-c4-3d SVR $latency Label
 2.532
 2.722
 2.780
@@ -3852,7 +3852,7 @@
 2.506
 2.584
 
->>>wc+rs-c4-3d DT $latency Integer
+>>>wc+rs-c4-3d DT $latency Label
 0.370
 0.354
 0.368
@@ -3904,7 +3904,7 @@
 0.551
 0.498
 
->>>wc+rs-c4-3d LR $latency Integer
+>>>wc+rs-c4-3d LR $latency Label
 0.203
 0.069
 0.060
@@ -3956,7 +3956,7 @@
 0.157
 0.079
 
->>>wc+rs-c4-3d KR $latency Integer
+>>>wc+rs-c4-3d KR $latency Label
 6.990
 5.718
 5.547
@@ -4632,7 +4632,7 @@
 9.423
 9.240
 
->>>noc-CM-log RF $energy Integer
+>>>noc-CM-log RF $energy Label
 3.753
 3.447
 3.830
@@ -4684,7 +4684,7 @@
 3.058
 2.771
 
->>>noc-CM-log knn $energy Integer
+>>>noc-CM-log knn $energy Label
 1.191
 1.049
 0.876
@@ -4736,7 +4736,7 @@
 0.872
 0.836
 
->>>noc-CM-log DT $energy Integer
+>>>noc-CM-log DT $energy Label
 0.483
 0.546
 0.464
@@ -4788,7 +4788,7 @@
 0.530
 0.560
 
->>>noc-CM-log LR $energy Integer
+>>>noc-CM-log LR $energy Label
 0.120
 0.125
 0.115
@@ -4840,7 +4840,7 @@
 0.102
 0.134
 
->>>noc-CM-log KR $energy Integer
+>>>noc-CM-log KR $energy Label
 30.976
 27.752
 10.443
@@ -4892,7 +4892,7 @@
 8.390
 8.361
 
->>>noc-CM-log RF $inv_runtime Integer
+>>>noc-CM-log RF $inv_runtime Label
 43.591
 43.959
 43.492
@@ -4944,7 +4944,7 @@
 43.416
 43.354
 
->>>noc-CM-log knn $inv_runtime Integer
+>>>noc-CM-log knn $inv_runtime Label
 0.721
 0.623
 0.640
@@ -4996,7 +4996,7 @@
 0.641
 0.621
 
->>>noc-CM-log DT $inv_runtime Integer
+>>>noc-CM-log DT $inv_runtime Label
 0.422
 0.380
 0.436
@@ -5048,7 +5048,7 @@
 0.328
 0.403
 
->>>noc-CM-log LR $inv_runtime Integer
+>>>noc-CM-log LR $inv_runtime Label
 0.062
 0.031
 0.047
@@ -5100,7 +5100,7 @@
 0.031
 0.047
 
->>>noc-CM-log KR $inv_runtime Integer
+>>>noc-CM-log KR $inv_runtime Label
 7.779
 7.561
 7.529
@@ -5776,7 +5776,7 @@
 15.020
 15.015
 
->>>llvm RF $throughput Integer
+>>>llvm RF $throughput Label
 123.900
 120.359
 121.082
@@ -5829,7 +5829,7 @@
 235.609
 
 
->>>llvm knn $throughput Integer
+>>>llvm knn $throughput Label
 2.157
 2.231
 1.959
@@ -5881,7 +5881,7 @@
 1.990
 2.219
 
->>>llvm SVR $throughput Integer
+>>>llvm SVR $throughput Label
 38.844
 25.540
 25.650
@@ -5933,7 +5933,7 @@
 28.500
 27.727
 
->>>llvm DT $throughput Integer
+>>>llvm DT $throughput Label
 1.212
 1.128
 1.136
@@ -5985,7 +5985,7 @@
 1.109
 1.238
 
->>>llvm LR $throughput Integer
+>>>llvm LR $throughput Label
 0.103
 0.075
 0.043
@@ -6037,7 +6037,7 @@
 0.045
 0.044
 
->>>llvm KR $throughput Integer
+>>>llvm KR $throughput Label
 191.015
 231.348
 270.631
@@ -6089,7 +6089,7 @@
 89.631
 90.356
 
->>>llvm RF $latency Integer
+>>>llvm RF $latency Label
 111.078
 112.157
 110.979
@@ -6141,7 +6141,7 @@
 171.113
 163.138
 
->>>llvm knn $latency Integer
+>>>llvm knn $latency Label
 1.445
 1.406
 1.530
@@ -6192,7 +6192,7 @@
 1.436
 1.448
 1.609
->>>llvm DT $latency Integer
+>>>llvm DT $latency Label
 1.217
 1.217
 1.255
@@ -6243,7 +6243,7 @@
 1.421
 1.435
 1.536
->>>llvm LR $latency Integer
+>>>llvm LR $latency Label
 0.071
 0.045
 0.050
@@ -6294,7 +6294,7 @@
 0.041
 0.043
 0.043
->>>llvm KR $latency Integer
+>>>llvm KR $latency Label
 168.002
 157.751
 153.835
@@ -6910,7 +6910,7 @@
 119.383
 125.110
 119.538
->>>wc-c1-3d RF $throughput Integer
+>>>wc-c1-3d RF $throughput Label
 
 131.245
 132.633
@@ -6962,7 +6962,7 @@
 120.113
 136.843
 138.219
->>>wc-c1-3d knn $throughput Integer
+>>>wc-c1-3d knn $throughput Label
 2.101
 2.251
 3.057
@@ -7013,7 +7013,7 @@
 3.065
 3.310
 2.463
->>>wc-c1-3d DT $throughput Integer
+>>>wc-c1-3d DT $throughput Label
 2.243
 2.279
 3.026
@@ -7064,7 +7064,7 @@
 1.817
 1.942
 1.890
->>>wc-c1-3d LR $throughput Integer
+>>>wc-c1-3d LR $throughput Label
 0.081
 0.096
 0.075
@@ -7115,7 +7115,7 @@
 0.102
 0.065
 0.133
->>>wc-c1-3d KR $throughput Integer
+>>>wc-c1-3d KR $throughput Label
 80.251
 83.062
 86.174
@@ -7167,7 +7167,7 @@
 70.031
 74.993
 
->>>wc-c1-3d RF $latency Integer
+>>>wc-c1-3d RF $latency Label
 163.072
 167.908
 169.172
@@ -7218,7 +7218,7 @@
 174.949
 165.212
 165.743
->>>wc-c1-3d knn $latency Integer
+>>>wc-c1-3d knn $latency Label
 2.220
 2.169
 2.461
@@ -7269,7 +7269,7 @@
 1.815
 1.882
 1.679
->>>wc-c1-3d DT $latency Integer
+>>>wc-c1-3d DT $latency Label
 3.175
 3.908
 3.894
@@ -7320,7 +7320,7 @@
 2.577
 2.759
 2.767
->>>wc-c1-3d LR $latency Integer
+>>>wc-c1-3d LR $latency Label
 0.118
 0.079
 0.074
@@ -7371,7 +7371,7 @@
 0.167
 0.181
 0.161
->>>wc-c1-3d KR $latency Integer
+>>>wc-c1-3d KR $latency Label
 73.370
 68.894
 68.744
